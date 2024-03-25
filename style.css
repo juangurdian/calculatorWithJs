@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: rgb(187, 181, 181);
+    display: grid;
+    place-items: center;
+    background-image: url('pic.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calculator{
+    width: 350px;
+    text-align: center;
+    background-color: rgb(48, 49, 57);
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: -3px -3px 7px rgba(85, 88, 125, 0.5),
+                2px 2px 5px rgba(85, 88, 125, 0.5);
+    height: 60vh;
+}
+#result{
+    font-size: 20px;
+    padding: 15px;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(48, 49, 57);
+    box-shadow: inset -3px -3px 7px rgba(85, 88, 125, 0.5),
+                inset 2px 2px 5px rgba(85, 88, 125, 0.5);
+    color: whitesmoke;
+    pointer-events: none;
+    text-align: right;
+}
+.clear input[type="button"]{
+    text-align: right;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    height: 50px;
+    padding-right: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(48, 49, 57);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+    color: whitesmoke;
+    border: none;
+    box-shadow: -3px -3px 7px rgba(85, 88, 125, 0.5),
+                 2px 2px 5px rgba(85, 88, 125, 0.5);
+}
+.clear input[type="button"]:focus{
+    color: rgb(219, 215, 215);
+    transform: scale(0.9);
+    box-shadow: inset -3px -3px 7px rgba(85, 88, 125, 0.5),
+                inset 2px 2px 5px rgba(85, 88, 125, 0.5);
+}
+.btn{
+    margin-top: 50px;
+}
+.calculator .btn .row input[type="button"]{
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    background-color: rgb(48, 49, 57);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3px -3px 7px rgba(85, 88, 125, 0.5),
+                2px 2px 5px rgba(85, 88, 125, 0.5);
+}
+.calculator .btn .row input[type="button"]:focus{
+    color: rgb(219, 215, 215);
+    transform: scale(0.9);
+    box-shadow: inset -3px -3px 7px rgba(85, 88, 125, 0.5),
+                inset 2px 2px 5px rgba(85, 88, 125, 0.5);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - CoolCoding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <img src="pic.avif" alt=""> -->
+    <div class="calculator">
+        <form action="" name="form">
+            <div class="result">
+                <input type="text" name="disp" id="result">
+            </div>
+            <div class="clear">
+                <input type="button" value="Clear" id="clear" onclick="func()">
+            </div><br>
+            <div class="btn">
+                <div class="row">
+                    <input type="button" value="7" name="n7" onclick="val(n7.value)" id="">
+                    <input type="button" value="8" name="n8" onclick="val(n8.value)" id="">
+                    <input type="button" value="9" name="n9" onclick="val(n9.value)" id="">
+                    <input type="button" value="+" name="add" onclick="val(add.value)" id="">
+                </div>
+                <div class="row">
+                    <input type="button" value="4" name="n4" onclick="val(n4.value)" id="">
+                    <input type="button" value="5" name="n5" onclick="val(n5.value)" id="">
+                    <input type="button" value="6" name="n6" onclick="val(n6.value)" id="">
+                    <input type="button" value="-" name="sub" onclick="val(sub.value)" id="">
+                </div>
+                <div class="row">
+                    <input type="button" value="1" name="n1" onclick="val(n1.value)" id="">
+                    <input type="button" value="2" name="n2" onclick="val(n2.value)" id="">
+                    <input type="button" value="3" name="n3" onclick="val(n3.value)" id="">
+                    <input type="button" value="*" name="mul" onclick="val(mul.value)" id="">
+                </div>
+                <div class="row">
+                    <input type="button" value="0" name="n0" onclick="val(n0.value)" id="">
+                    <input type="button" value="." name="ndot" onclick="val(ndot.value)" id="">
+                    <input type="button" value="/" name="div" onclick="val(div.value)" id="">
+                    <input type="button" value="=" name="sum" onclick="calculate()" id="">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
